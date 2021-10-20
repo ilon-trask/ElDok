@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0px;
+  font-family: PT Sans;
+}
+
+main {
+  background-color: #f6f6f6;
+  margin-top: -16px;
+}
+
+.main {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.mainCont {
+  display: flex;
+  margin-top: 20px;
+}
+
+header {
+  background-color: #02846f;
+  height: 100px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameDoc {
+  color: #02846f;
+  font-size: 20px;
+  font-family: Playfair Display;
+  font-weight: bold;
+}
+
+.progresBar {
+  background-color: #9b9595;
+  width: 300px;
+  border-radius: 5px;
+  color: white;
+  padding-left: 10px;
+}
+
+.cont {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+hr {
+  width: 300px;
+  margin-left: 0px;
+}
+
+.doc {
+  width: 70%;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 30px;
+  overflow-y: scroll;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.back {
+  border: 2px solid #02846f;
+  border-radius: 5px;
+  color: #02846f;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.next {
+  color: white;
+  background-color: #02846f;
+  border-radius: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.centerTitle {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.centerText {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.abc {
+  display: flex;
+}
+
+.aut {
+  margin-right: 10px;
+  margin-left: 10px;
+  min-height: 20px;
+  min-width: 20px;
+  font-family: PT Sans;
+  background-color: #90d1c6;
+}
